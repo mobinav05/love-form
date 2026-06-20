@@ -15,7 +15,7 @@ const formData = {
 // 🔥 ارسال به Google Sheet
 function sendToSheet(data){
 
-    fetch("https://script.google.com/macros/s/AKfycbwj_7Y9QQTJ2HcRmQKFGc7uFstzwCwFGqi2g6YO-9zv0qh_ZSMlRbvvSwXIrdOiqTLYHQ/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzbr-UGeBpbN7jGcjrBuceo04W6M78pBrN847pWgt5_imspnYtnrjdD00iSxF-ezFed/exec", {
         method: "POST",
         body: JSON.stringify(data)
     });
